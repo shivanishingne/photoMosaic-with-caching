@@ -1,13 +1,14 @@
-# Programming Project: Photomosaics
+# Programming Project: Photo-Mosaics
+
+* Convert an input image into a mosaic art. Included caching mechanism to fetch the source images faster.
+
 
 To install PIL:
-
 * Install `virtualenv` and `pip`
 * `virtualenv vendor`
 * `pip install -r requirements.txt`
 
 Then whenever you need to run the code, first run:
-
 * `source vendor/bin/activate`
 to load PIL.
 
@@ -18,6 +19,7 @@ Then run:
 `sudo python mosaic.py`, making sure that the code points to
 the location of your input image.
 Final image gets created and stored in image called `final.jpg`
+
 
 
 # Source Images Dataset:
